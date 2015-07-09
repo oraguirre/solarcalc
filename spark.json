@@ -1,0 +1,7 @@
+{
+  "name": "solarcalc library",
+  "author": "Orlando Aguirre <oraguirre@gmail.com>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A library to calculate solar position data"
+}

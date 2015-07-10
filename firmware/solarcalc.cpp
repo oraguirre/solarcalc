@@ -6,11 +6,12 @@
 */
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
+#include <solarcalc.h>
 #elif defined(SPARK)
 #include "application.h"
+#include "solarcalc/solarcalc.h"
 #endif
 
-#include <solarcalc.h>
 #include <math.h>
 #define pi 3.14159265358979323846
 #define Radians 0.017453292519943295769 // (pi/180)

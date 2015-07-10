@@ -4,8 +4,12 @@
 	Created by Orlando Aguirre, July 27, 2015
 	Release into the public domain.
 */
-
+#if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
+#elif defined(SPARK)
+#include "application.h"
+#endif
+
 #include <solarcalc.h>
 #include <math.h>
 #define pi 3.14159265358979323846

@@ -9,7 +9,11 @@
 #ifndef solarcalc_h
 #define solarcalc_h
 
+#if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
+#elif defined(SPARK)
+#include "application.h"
+#endif
 
 class solarcalc
 {

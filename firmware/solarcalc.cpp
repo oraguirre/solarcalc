@@ -9,7 +9,7 @@
 #include <solarcalc.h>
 #elif defined(SPARK)
 #include "application.h"
-#include "solarcalc/solarcalc.h"
+#include "solarcalc.h"
 #endif
 
 #include <math.h>

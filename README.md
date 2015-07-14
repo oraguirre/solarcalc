@@ -1,9 +1,10 @@
 # solarcalc
+===========
 Library to calculate solar data
 
 ## Synopsis
 
-**Solarcalc** is an arduino library created to calculate sunrise, sunset, solar noon and solar position at any place on earth based on NOAA Solar Calculator. These equations are base on Astronomical Algorithms by Jean Meeus.
+**Solarcalc** is an Spark core / arduino library created to calculate sunrise, sunset, solar noon and solar position at any place on earth based on NOAA Solar Calculator. These equations are base on Astronomical Algorithms by Jean Meeus.
 http://www.esrl.noaa.gov/gmd/grad/solcalc/calcdetails.html
 
 The Calculation of Julian Date is based on the formula found on wikipedia.

@@ -1,5 +1,9 @@
+  //Wire is just used on arduino, comment out using spark core
   #include "Wire.h"
+  //Arduino statement
   #include <solarcalc.h>
+  //Spark core statement
+  //#include "solarcalc/solarcalc.h"
   
   float latitude = -34.9290;
   float longitude = 138.6010;
@@ -18,8 +22,11 @@
  
   //Spark Core
   //solarcalc solardata(latitude, longitude, zenith, timezone);
+  
   void setup() {
+  //Wire is just used on arduino, comment out using spark core
 		Wire.begin();
+
 		Serial.begin(9600);
   }
   void loop() { 

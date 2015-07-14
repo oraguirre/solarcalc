@@ -5,10 +5,19 @@
   float longitude = 138.6010;
   float zenith = 90.833;
   float timezone = 9.5;
-  int second, minute, hour, dayOfWeek, dayOfMonth, month, year;
+  
+  int second=0;
+  int minute=0;
+  int hour=12;
+  int dayOfMonth=14;
+  int month=7;
+  int year=2015;
  
+  //Arduino
   solarcalc solardata = solarcalc(latitude, longitude, zenith, timezone);
  
+  //Spark Core
+  //solarcalc solardata(latitude, longitude, zenith, timezone);
   void setup() {
 		Wire.begin();
 		Serial.begin(9600);
